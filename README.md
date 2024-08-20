@@ -104,7 +104,7 @@ vaccine_type = [2 2 2 2 2]; % P: vaccination type (1: protein, 2: mRNA, 3: inact
 
 The antigen-antibody cross-neutralization matrix for the six SARS-CoV-2 variants, derived from pseudovirus titration experiments in this study, does not require user customization. 
 The legend for the variant-specific colors is found in `Personalized_vac/variant_legend.png`.
-
+![legend](https://github.com/Jinkaichun/DynaVac/blob/main/Personalized_vac/variant_legend.png)
 ## License
 
 This project is licensed under the XXX License - see the [LICENSE](LICENSE) file for details.
