@@ -36,7 +36,7 @@ To reproduce Figure 3 from the main text:
 
 To reproduce Figure 4:
 
-- Run `Fig/plot_fig4.m`.
+- Run `Fig4/plot_fig4.m`.
 - The parameter set trained on human clinical data is stored in `Fig4_validation_human/human_parameter.mat`.
 
 #### 1.3 Figure 5: Immune Imprinting vs. Antigenic Distance 
