@@ -2,7 +2,9 @@
 
 ## Project Description
 
-DynaVac is an innovative computational model developed to quantitatively describe and predict the immune response dynamics induced by SARS-CoV-2 vaccination. The model uses ordinary differential equations (ODEs) based on advanced immunological mechanisms to abstract key cellular and molecular processes of antibody immune response, including mRNA translation to produce antigens, naive B-cell affinity maturation, differentiation of memory B cells and plasma cells, as well as antigen-antibody neutralization. The model also accounts for the activation, proliferation, competition, and differentiation of memory B cells generated during primary immunization when reactivated in subsequent immunizations. Specifically, the equations describe the dynamic changes of key components such as antigens ($Ag$), naïve B cells ($N$), memory B cells ($M_{on}, M_{off}$), and antibodies ($Ab$). The general form of the equations is as follows:
+DynaVac is an innovative computational model developed to quantitatively describe and predict the immune response dynamics induced by SARS-CoV-2 vaccination. The model uses ordinary differential equations (ODEs) based on advanced immunological mechanisms to abstract key cellular and molecular processes of antibody immune response, including mRNA translation to produce antigens, naive B-cell affinity maturation, differentiation of memory B cells and plasma cells, as well as antigen-antibody neutralization. The model also accounts for the activation, proliferation, competition, and differentiation of memory B cells generated during primary immunization when reactivated in subsequent immunizations. 
+![scheme](https://github.com/Jinkaichun/DynaVac/blob/main/images/dynavac_scheme.png)
+Specifically, the equations describe the dynamic changes of key components such as antigens ($Ag$), naïve B cells ($N$), memory B cells ($M_{on}, M_{off}$), and antibodies ($Ab$). The general form of the equations is as follows:
 ```math
 \begin{gather}
 \frac{dAg_i}{dt} = -\sum_{j}^{n} \gamma_{\text{neu}_i} c_{i,j}  Ag_i  Ab_j - \gamma_{\text{Ag}}  Ag_i \\
