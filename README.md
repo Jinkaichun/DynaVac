@@ -28,7 +28,7 @@ This repository includes the code to reproduce the main results of the paper (Fi
 
 To reproduce Figure 3 from the main text:
 
-- Run `Fig3_validation_mice/plot_fig3.m`.
+- Run `Fig3/plot_fig3.m`.
 - The files `yd_parameters.mat`, `cyl_parameters.mat`, and `mix_parameters.mat` contain the parameter sets that were obtained by parameterizing the model using data from this study, the Yisimayi et al. dataset, and a mixed dataset, respectively.
 - Run `plot_validation_this_study.m` or `plot_validation_Yisimayi.m` to visualize the model's performance on different datasets. Change the loaded parameter set at line 4 of the script as needed.
 
@@ -36,7 +36,7 @@ To reproduce Figure 3 from the main text:
 
 To reproduce Figure 4:
 
-- Run `Fig4_validation_human/plot_fig4.m`.
+- Run `Fig/plot_fig4.m`.
 - The parameter set trained on human clinical data is stored in `Fig4_validation_human/human_parameter.mat`.
 
 #### 1.3 Figure 5: Immune Imprinting vs. Antigenic Distance 
