@@ -16,9 +16,9 @@ Specifically, the equations describe the dynamic changes of key components such 
 ```
 The subscript $i$ represents the variant index. For detailed derivation of the equations and parameter meanings, please refer to the supplementary notes in the related publication [link to the paper](paper).
 
-By fitting antibody-pseudovirus titration experimental data from various vaccination combinations, DynaVac can comprehensively and quantitatively characterize and predict the humoral immune response dynamics induced by SARS-CoV-2 vaccines during primary and booster immunizations. Our simulation results align with and expand upon the current understanding of immune imprinting. DynaVac provides a powerful quantitative tool for optimizing vaccine composition design and immunization strategies.
+By fitting pseudovirus titration experimental data from various vaccination combinations, DynaVac can comprehensively and quantitatively characterize and predict the humoral immune response dynamics induced by SARS-CoV-2 vaccines during primary and booster immunizations. Our simulation results align with and expand upon the current understanding of immune imprinting. DynaVac provides a powerful quantitative tool for optimizing vaccine composition design and immunization strategies.
 
-This repository includes the code to reproduce the main results of the paper (Figures 3 to 6) and offers methods for simulating personalized vaccination strategies. For quick online interactive simulations, visit the [DynaVac Online Interface](interface).
+This repository includes the code to reproduce the main results of our related publication (Figures 3 to 6) and offers methods for simulating personalized vaccination strategies. For quick online interactive simulations, visit the [DynaVac Online Interface](interface).
 
 ## Usage
 
