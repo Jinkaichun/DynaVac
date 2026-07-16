@@ -18,7 +18,7 @@ The subscript $i$ represents the variant index. For detailed derivation of the e
 
 By fitting pseudovirus titration experimental data from various vaccination combinations, DynaVac can comprehensively and quantitatively characterize and predict the humoral immune response dynamics induced by SARS-CoV-2 vaccines during primary and booster immunizations. Our simulation results align with and expand upon the current understanding of immune imprinting. DynaVac provides a powerful quantitative tool for optimizing vaccine composition design and immunization strategies.
 
-This repository includes the code to reproduce the main results of our related publication (Figures 3 to 6) and offers methods for simulating personalized vaccination strategies. For quick online interactive simulations, visit the [DynaVac Online Interface](https://dynavac.cub.ynu.edu.cn).
+This repository includes the code to reproduce the main results of our related publication (Figures 3 to 6) and offers methods for simulating personalized vaccination strategies.
 
 ## System Requirements
 - MATLAB R2021a or later (tested on Windows 11 and macOS 14)
